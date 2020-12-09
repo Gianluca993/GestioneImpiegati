@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+	<a class="navbar navbar-brand" href="${pageContext.request.contextPath}/index.jsp">H0M3</a>
+	<button class="navbar-toggler" 
+		type="button" 
+		data-toggle="collapse"
+		data-target="#mioMenu">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="mioMenu">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="${pageContext.request.contextPath}/impform">Aggiungi Impiegato</a>
+			<a class="nav-item nav-link" href="${pageContext.request.contextPath}/impreport">Report Impiegati</a>		
+			<a class="nav-item nav-link" href="${pageContext.request.contextPath}/stats">Statistiche</a>		
+		</div>
+	</div>
+	<div class="collapse navbar-collapse" id="mioMenu">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link" href="${pageContext.request.contextPath}/uslogout">Logout</a>			
+		</div>
+	</div>
+</nav>
